@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BarakaTek Creative Studio - Création digitale premium</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0f0f0f;
+            color: #f0f0f0;
+        }
+        .gold-accent {
+            color: #D4AF37;
+        }
+    </style>
+</head>
+<body class="bg-black text-white">
+    <div class="container mx-auto px-4 py-8">
+        <!-- Navigation -->
+        <nav class="flex justify-between items-center mb-16">
+            <div class="text-2xl font-bold gold-accent">BarakaTek</div>
+            <div class="flex gap-6 items-center">
+                <a href="#services" class="hover:gold-accent">Services</a>
+                <a href="#portfolio" class="hover:gold-accent">Portfolio</a>
+                <a href="#contact" class="bg-white text-black px-4 py-2 rounded-full hover:bg-gray-200">Contact</a>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <header class="text-center mb-20">
+            <h1 class="text-5xl font-bold mb-6">
+                Transformez votre <span class="gold-accent">Vision</span> en Réalité Digitale
+            </h1>
+            <p class="text-xl max-w-2xl mx-auto mb-8 text-gray-300">
+                Créons ensemble des solutions digitales intelligentes qui propulsent votre activité vers de nouveaux sommets.
+            </p>
+            <div class="flex justify-center gap-4">
+                <a href="#services" class="bg-white text-black px-6 py-3 rounded-full hover:bg-gray-200">
+                    Nos Services
+                </a>
+                <a href="#contact" class="border border-white px-6 py-3 rounded-full hover:bg-white hover:text-black transition">
+                    Contactez-nous
+                </a>
+            </div>
+        </header>
+
+        <!-- Services Section -->
+        <section id="services" class="mb-20">
+            <h2 class="text-4xl font-bold text-center mb-12">Nos Services Premium</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gray-900 p-6 rounded-lg border border-gray-700 hover:border-gold-accent transition">
+                    <svg class="w-12 h-12 gold-accent mb-4" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M19 3H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2V5a2 2 0 00-2-2zm-7 14l-5-5 1.5-1.5L12 14l4.5-4.5L18 11l-6 6z"/>
+                    </svg>
+                    <h3 class="text-xl font-semibold mb-4">Logos Premium</h3>
+                    <p class="text-gray-300">
+                        Des logos uniques qui capturent l'essence de votre marque et la différencient.
+                    </p>
+                </div>
+                <div class="bg-gray-900 p-6 rounded-lg border border-gray-700 hover:border-gold-accent transition">
+                    <svg class="w-12 h-12 gold-accent mb-4" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M9 21c0 .55.45 1 1 1h4c.55 0 1-.45 1-1v-1H9v1zm3-19C8.14 2 5 5.14 5 9c0 2.38 1.19 4.47 3 5.74V17c0 .55.45 1 1 1h6c.55 0 1-.45 1-1v-2.26c1.81-1.27 3-3.36 3-5.74 0-3.86-3.14-7-7-7zm2.85 11.1l-.85.6V16h-2v-2.3l-.85-.6A4.997 4.997 0 017 9c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.63-.8 3.16-2.15 4.1z"/>
+                    </svg>
+                    <h3 class="text-xl font-semibold mb-4">Applications NoCode</h3>
+                    <p class="text-gray-300">
+                        Des solutions métiers personnalisées sans expertise technique requise.
+                    </p>
+                </div>
+                <div class="bg-gray-900 p-6 rounded-lg border border-gray-700 hover:border-gold-accent transition">
+                    <svg class="w-12 h-12 gold-accent mb-4" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 14H4V8l8 5 8-5v10zm-8-7L4 6h16l-8 5z"/>
+                    </svg>
+                    <h3 class="text-xl font-semibold mb-4">Sites Web Intelligents</h3>
+                    <p class="text-gray-300">
+                        Des sites web responsive, performants et adaptés à votre secteur d'activité.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Avantages Section -->
+        <section id="avantages" class="mb-20 bg-gray-900 p-12 rounded-lg">
+            <h2 class="text-4xl font-bold text-center mb-12">Pourquoi BarakaTek ?</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <div class="gold-accent text-5xl font-bold mb-4">100%</div>
+                    <h3 class="text-xl font-semibold mb-2">Personnalisé</h3>
+                    <p class="text-gray-300">Des solutions sur-mesure adaptées à votre activité.</p>
+                </div>
+                <div class="text-center">
+                    <div class="gold-accent text-5xl font-bold mb-4">7/7</div>
+                    <h3 class="text-xl font-semibold mb-2">Support</h3>
+                    <p class="text-gray-300">Un accompagnement continu pour votre projet.</p>
+                </div>
+                <div class="text-center">
+                    <div class="gold-accent text-5xl font-bold mb-4">-50%</div>
+                    <h3 class="text-xl font-semibold mb-2">Délais</h3>
+                    <p class="text-gray-300">Des solutions rapides et efficaces.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="mb-20">
+            <h2 class="text-4xl font-bold text-center mb-12">Notre Portfolio</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gray-900 rounded-lg overflow-hidden">
+                    <img src="/api/placeholder/400/300" alt="Projet 1" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">Logo Artisan</h3>
+                        <p class="text-gray-300">Identité visuelle pour un artisan local</p>
+                    </div>
+                </div>
+                <div class="bg-gray-900 rounded-lg overflow-hidden">
+                    <img src="/api/placeholder/400/300" alt="Projet 2" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">Site E-commerce</h3>
+                        <p class="text-gray-300">Boutique en ligne clé en main</p>
+                    </div>
+                </div>
+                <div class="bg-gray-900 rounded-lg overflow-hidden">
+                    <img src="/api/placeholder/400/300" alt="Projet 3" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">App Thérapeute</h3>
+                        <p class="text-gray-300">Application de gestion de rendez-vous</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="mb-20">
+            <div class="bg-gray-900 rounded-lg p-12 text-center">
+                <h2 class="text-4xl font-bold mb-6">Commençons Votre Projet</h2>
+                <p class="text-xl max-w-2xl mx-auto mb-8 text-gray-300">
+                    Discutons de vos objectifs et transformons votre vision en réalité digitale.
+                </p>
+                <div class="flex justify-center gap-4">
+                    <a href="mailto:contact@barakatek.com" class="bg-white text-black px-6 py-3 rounded-full hover:bg-gray-200">
+                        Envoyez un Email
+                    </a>
+                    <a href="https://wa.me/+33612345678" target="_blank" class="bg-green-500 text-white px-6 py-3 rounded-full hover:bg-green-600 flex items-center gap-2">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.864 9.864 0 0012.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.233 8.233 0 012.37 5.83c0 4.54-3.7 8.23-8.24 8.23-1.48 0-2.93-.39-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.32a8.248 8.248 0 01-1.26-4.38c.02-4.54 3.7-8.22 8.25-8.22M8.53 7.33c-.16 0-.43.06-.66.31-.22.25-.9.88-.9 2.15 0 1.28.93 2.51.06 3.74-.87 1.23-1.8 2.11-1.8 3.39 0 1.54 1.53 2.23 1.53 2.23l.02.01c.01 0 .11.06.31.06.39 0 1.27-.17 1.99-.53 1.36-.69 2.49-1.98 2.37-3.79 0-.16-.07-.3-.19-.4-.42-.37-1.26-.89-1.43-1.03-.26-.23-.22-.63.01-.88.23-.24.66-.69.89-1.02.12-.18.22-.32.29-.42.23-.37.12-.86-.28-1.09l-1.62-.91c-.12-.06-.24-.1-.37-.1z"/>
+                        </svg>
+                        WhatsApp
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="text-center text-gray-400 py-8 border-t border-gray-800">
+            <p>&copy; 2023 BarakaTek Creative Studio. Tous droits réservés.</p>
+        </footer>
+    </div>
+
+    <!-- WhatsApp Fixed Button -->
+    <a href="https://wa.me/+33612345678" target="_blank" class="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 z-50">
+        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.864 9.864 0 0012.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.233 8.233 0 012.37 5.83c0 4.54-3.7 8.23-8.24 8.23-1.48 0-2.93-.39-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.32a8.248 8.248 0 01-1.26-4.38c.02-4.54 3.7-8.22 8.25-8.22M8.53 7.33c-.16 0-.43.06-.66.31-.22.25-.9.88-.9 2.15 0 1.28.93 2.51.06 3.74-.87 1.23-1.8 2.11-1.8 3.39 0 1.54 1.53 2.23 1.53 2.23l.02.01c.01 0 .11.06.31.06.39 0 1.27-.17 1.99-.53 1.36-.69 2.49-1.98 2.37-3.79 0-.16-.07-.3-.19-.4-.42-.37-1.26-.89-1.43-1.03-.26-.23-.22-.63.01-.88.23-.24.66-.69.89-1.02.12-.18.22-.32.29-.42.23-.37.12-.86-.28-1.09l-1.62-.91c-.12-.06-.24-.1-.37-.1z"/>
+        </svg>
+    </a>
+</body>
+</html>
+
